@@ -1,5 +1,13 @@
 export default class Vec {
-  constructor(x = 0, y = 0) {
+  constructor(
+    public x = 0,
+    public y = 0
+  ) {
+    this.x = x;
+    this.y = y;
+  }
+
+  set(x: number, y: number) {
     this.x = x;
     this.y = y;
   }

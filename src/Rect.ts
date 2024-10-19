@@ -1,10 +1,18 @@
-import Vec from "./Vec.js";
+import Vec from "./vec";
 
 export default class Rect {
-  constructor(w, h) {
+  pos: Vec;
+  size: Vec;
+  constructor(w: number, h: number) {
     this.pos = new Vec();
     this.size = new Vec(w, h);
   }
+
+  set(x: number, y: number) {
+    this.pos.x = x;
+    this.pos.y = y;
+  }
+
   get left() {
     return this.pos.x - this.size.x / 2;
   }

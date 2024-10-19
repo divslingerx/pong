@@ -1,9 +1,9 @@
-import Vec from "./Vec.js";
-import Rect from "./Rect.js";
+import Vec from "./vec";
+import Rect from "./Rect";
 
 export default class Ball extends Rect {
+  public vel = new Vec();
   constructor() {
     super(10, 10);
-    this.vel = new Vec();
   }
 }
