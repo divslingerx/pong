@@ -1,6 +1,4 @@
 import "./style.css";
-import typescriptLogo from "./typescript.svg";
-import viteLogo from "/vite.svg";
 import Ball from "./ball";
 import Rect from "./Rect";
 import Player from "./player";
