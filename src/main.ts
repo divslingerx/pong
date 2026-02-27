@@ -1,6 +1,6 @@
 import "./style.css";
 import Ball from "./ball";
-import Rect from "./Rect";
+import Rect from "./rect";
 import Player from "./player";
 
 const canvas = document.getElementById("canvas") as HTMLCanvasElement;

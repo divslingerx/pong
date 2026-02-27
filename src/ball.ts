@@ -1,5 +1,5 @@
 import Vec from "./vec";
-import Rect from "./Rect";
+import Rect from "./rect";
 
 export default class Ball extends Rect {
   public vel = new Vec();
